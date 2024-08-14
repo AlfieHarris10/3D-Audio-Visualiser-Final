@@ -1,0 +1,31 @@
+body { 
+    margin: 0; 
+    overflow: hidden; 
+  }
+    
+    h1 {
+      font-style: italic;
+      color: #373fff;
+    }
+    
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100vw;
+      height: 20vh;
+      margin: 0;
+      position: absolute;  
+    }
+    
+    .button { 
+      position: absolute; 
+      top: 20px; 
+      left: 20px; 
+      padding: 10px 20px; 
+      background: #444; 
+      color: #fff; 
+      border: none; 
+      border-radius: 5px; 
+      cursor: pointer; 
+    }
